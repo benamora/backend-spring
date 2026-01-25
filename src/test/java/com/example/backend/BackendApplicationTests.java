@@ -21,6 +21,6 @@ class BackendApplicationTests {
     void apiHello_returnsExpectedMessage() throws Exception {
         mockMvc.perform(get("/api/hello"))
                .andExpect(status().isOk())
-               .andExpect(content().string("Hello Spring Boot!"));
+               .andExpect(content().string("Hello Spring Boot!!"));
     }
 }
