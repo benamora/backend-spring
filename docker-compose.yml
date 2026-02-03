@@ -1,0 +1,7 @@
+services:
+  backend:
+    container_name: ${DEPLOY_CONTAINER}
+    image: ${IMAGE_NAME}:${IMAGE_TAG}
+    restart: unless-stopped
+    ports:
+      - "${PORT_HOST}:${PORT_APP}"
