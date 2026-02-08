@@ -2,10 +2,10 @@ pipeline {
   agent any
 
   environment {
-    REPO_URL    = 'https://github.com/AhmedKn/backend-spring.git'
+    REPO_URL    = 'https://github.com/benamora/backend-spring.git'
     BRANCH      = 'master'
 
-    DOCKERHUB_USER = 'i2xmortal'
+    DOCKERHUB_USER = 'benamora1'
     IMAGE_NAME  = 'backend-devsecops'
     IMAGE_TAG   = 'prod'
 
